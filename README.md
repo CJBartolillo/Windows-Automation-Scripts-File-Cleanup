@@ -3,6 +3,7 @@ Documenting my experience trying to learn and create an interactive script to cl
 
 ### Automated File Cleanup (PowerShell)
 I wanted to try my hand at automating a task on my computer with the help of scripting and automation. As someone who hardly ever goes back to delete small amounts of files that build up in my downloads folder, I figured a perfect way to skip the hassle of browsing my folder and going through each file, would be to future proof my self and create a script which can identify the files and remove them with a click of a button.
+
 First I used the syntax: ls C:\Users\User\Downloads\*letter*.pdf 
 I then discovered the difference between using $env:USERPROFILE instead of the traditional "ls C:\Users" and listing your filepath specifically, which allows this script to be universal and practical for anyone's particular use cases. For me personally I have created a lot of tailored cover letters for job listings and figured this would be handy.
 
