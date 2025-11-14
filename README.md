@@ -8,6 +8,7 @@ First I used the syntax: ls C:\Users\User\Downloads\*letter*.pdf
 I then discovered the difference between using $env:USERPROFILE instead of the traditional "ls C:\Users" and listing your filepath specifically, which allows this script to be universal and practical for anyone's particular use cases. For me personally I have created a lot of tailored cover letters for job listings and figured this would be handy.
 
 ![letter](https://github.com/user-attachments/assets/a167986d-7c13-494d-be64-8f4c3253302c)
+
 Before creating the script I figured I should verify all the files within PowerShell, using the syntax: Get-ChildItem "$env:USERPROFILE\Downloads\*letter*.pdf 
 
 I've written a very simple script in notepad and saved it as a .ps1 file (PowerShell script) This will not confirm your files or prompt you at all but simply run the input Remove-Item (which will delete any pdf file in my downloads folder with "letter" anywhere in its filename) And then display a popup telling you the cover letter files were deleted.
