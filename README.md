@@ -32,7 +32,7 @@ You can also change what file name term you want to delete by just replacing "le
 
 This next script is more indepth and still a bit out of my wheelhouse but the concepts are starting to become more straight forward to me and I'm getting a better grasp of what the syntax is actually doing. This is the syntax if you want to copy and paste it and create your own .ps1 file for yourself, I replaced "letter" for "cover" but it is still in my downloads directory. Feel free to modify it for yourself for your own use cases.
 
-# Find PDF files with "cover" in the filename
+Find PDF files with "cover" in the filename
 $files = Get-ChildItem "$env:USERPROFILE\Downloads\*cover*.pdf"
 
 if ($files.Count -eq 0) {
