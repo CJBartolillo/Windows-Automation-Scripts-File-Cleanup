@@ -1,8 +1,7 @@
 # Windows-Automation-Scripts-File-Cleanup
 Documenting my experience trying to learn and create an interactive script to clean up duplicate cover letter PDFs from Downloads folder.
-# Windows Automation Homelab
 
-## Projects
+## Project
 
 ### Automated File Cleanup (PowerShell)
 I wanted to try my hand at automating a task on my computer with the help of scripting and automation. As someone who hardly ever goes back to delete small amounts of files that build up in my downloads folder, I figured a perfect way to skip the hassle of browsing my folder and going through each file, would be to future proof my self and create a script which can identify the files and remove them with a click of a button.
