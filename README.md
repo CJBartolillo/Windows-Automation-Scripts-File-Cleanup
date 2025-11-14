@@ -25,7 +25,7 @@ pause
 
 Copy and paste the above syntax into a notepad document, go to File > Save As > Add a filename with .ps1 at the end, and change the "Save as type:" from text documents to All files.
 
-To search different folders, replace `Downloads` with your target directory
+## To search different folders, replace `Downloads` with your target directory
 You can also change what file name term you want to delete by just replacing "letter" with your own words. "$env:USERPROFILE\Downloads\*yourterm*.pdf"
 
 ## Fileclean up script that will prompt you before removing files
@@ -80,9 +80,5 @@ the answer will be stored in the $confirmation variable and depending on your an
 - Conditional logic with `if/else`
 - Difference between `.bat` and `.ps1` files
 - why environment variables ($env:) are important for creating scripts that can be shared for other people
-
-**Code:** [DeleteCoverLetters.ps1](./powershell/DeleteCoverLetters.ps1)
-
----
 
 ...
